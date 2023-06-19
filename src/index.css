@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+ /* ::-webkit-scrollbar {
+   width: 12px;
+ } */
+
+ /* ::-webkit-scrollbar-track {
+   background: var(--scroll-bar-bg-color);
+ }
+
+ ::-webkit-scrollbar-thumb {
+   background-color: var(--scroll-bar-color);
+   border-radius: 20px;
+   border: 3px solid var(--scroll-bar-bg-color);
+ } */
+
+ .design{
+  position:'relative'
+ }
+ .one{
+  position: absolute;
+  height: 433px;
+    width: 700px;
+    background-color: blue;
+    border-radius: 50%;
+    display: inline-block;
+  left: -46px;
+    top: -130px;
+    overflow: hidden;
+ }
+ .two {
+   position: absolute;
+   height: 496px;
+   width: 70rem;
+   background-color: blue;
+   border-radius: 50%;
+   display: inline-block;
+   left: 300px;
+   top: -133px;
+   overflow: hidden;
+ }
+ .three {
+   position: absolute;
+   height: 500px;
+   width: 50rem;
+   background-color: blue;
+   border-radius: 50%;
+   display: inline-block;
+   right: -147px;
+   top: -100px;
+   overflow: hidden;
+ }
+ .four{
+  position: absolute;
+    height: 10rem;
+    width: 40rem;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    left: 235px;
+    bottom: 140px;
+    overflow: hidden;
+    rotate: -20deg;
+ }
+ 
+ li{
+  width: '100%';
+  list-style: none;
+  padding: 3px 5px;
+  margin-bottom: 10px;
+ 
+ }
+ #link{
+  text-decoration: none;
+  font-size: '14px';
+  font-weight: 500;
+  color: white;
+ }
+ .mainDp{
+  border-radius: 50%;
+  object-fit: cover;
+ }
+ .Dp{
+  border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+ }
+ .title{
+  font-size: 20px;
+  font-weight: 500;
+  color:grey
+ }
+.menu{
+  position: absolute;
+    height: 36px;
+    width: 36px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    left: 246px;
+    top: 240px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
